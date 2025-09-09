@@ -1,0 +1,95 @@
+# =================================================================
+# ## Miscellaneous (기타)
+# =================================================================
+# 로그 파일
+*.log
+
+
+# =================================================================
+# ## Java & Build Artifacts (Java 및 빌드 결과물)
+# =================================================================
+# 컴파일된 클래스 파일
+*.class
+
+# 패키지 파일
+*.jar
+*.war
+*.ear
+*.nar
+
+# VM 크래시 로그
+hs_err_pid*
+replay_pid*
+
+
+# =================================================================
+# ## Build Tools (빌드 도구)
+# =================================================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle
+build/
+.gradletasknamecache
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+
+# =================================================================
+# ## IDE
+# =================================================================
+
+# IntelliJ IDEA
+.idea/
+.idea_modules/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse (STS)
+.settings/
+bin/
+tmp/
+.apt_generated/
+.classpath
+.factorypath
+.project
+.metadata
+.springBeans
+.sts4-cache
+# 임시/백업 파일
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+
+# Visual Studio Code
+.vscode/
+.code-workspace
+
+
+# =================================================================
+# ## Operating System (운영체제)
+# =================================================================
+# macOS
+.DS_Store
